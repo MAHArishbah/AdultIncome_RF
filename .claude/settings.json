@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(git --version)",
-      "Bash(python check_rho.py)",
-      "Bash(python val_report.py)"
-    ]
-  }
-}

@@ -42,7 +42,7 @@ $P \in \mathbb{R}^{M \times n}$, let $E = P - y$, and form the Gram matrix $G = 
 
 $$\text{Brier}_{\text{forest}} = \rho\sigma^2 + \frac{(1-\rho)\sigma^2}{M}$$
 
-where $\sigma^2 = \operatorname{tr}(G)/M$ is one tree's average Brier and $\rho$ is the mean
+where $\sigma^2 = \mathrm{tr}(G)/M$ is one tree's average Brier and $\rho$ is the mean
 off-diagonal correlation — the fraction of a tree's error that every other tree also makes.
 `error_decomposition` asserts this identity holds on every fit, so it is checked rather than assumed.
 

@@ -9,7 +9,7 @@ __pycache__/
 venv/
 
 # local tool / editor state
-.claude/settings.local.json
+.claude/
 .vscode/
 .idea/
 Thumbs.db
