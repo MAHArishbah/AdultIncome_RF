@@ -1,0 +1,16 @@
+# reference material, not part of the project
+adult_rf_notebook_reference.pdf
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# local tool / editor state
+.claude/settings.local.json
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
